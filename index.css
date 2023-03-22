@@ -1,0 +1,13 @@
+html, body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #18122B;
+}
+
+/*About Us page global css*/
+.about--body{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15vh;
+}
+
