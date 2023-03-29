@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import SignUp from './pages/SignUp';
+import SignIn from './pages/SignIn';
 import AboutUs from './pages/AboutUs';
 
 function App(){
     return (
         <BrowserRouter>
             <Routes>
-                <Route index element={<SignUp />} />
+                <Route index element={<SignIn />} />
                 <Route path="aboutus" element={<AboutUs />} />
             </Routes>
         </BrowserRouter>

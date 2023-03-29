@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import MainContent from "../components/MainComponent";
 
-function SignUp(){
+function SignIn(){
     return (
         <div>
             <Header />
@@ -11,4 +11,4 @@ function SignUp(){
     )
 }
 
-export default SignUp
+export default SignIn
